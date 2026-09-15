@@ -1,0 +1,15 @@
+[package]
+name = "katalog"
+version = "0.0.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Kolektiv project scaffold — archetypes, standards, and libraries from a catalog"
+repository = "https://github.com/KolektivComputer/katalog"
+readme = "README.md"
+
+[[bin]]
+name = "katalog"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
